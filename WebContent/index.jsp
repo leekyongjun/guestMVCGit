@@ -4,11 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
-
+<title>방명록</title>
+<style type="text/css">
+	a{
+		text-decoration: none;
+	}
+</style>
 </head>
 <body>
-	<a href="http://localhost8081/guestMVC/guest.write.do">방명록 작성</a>
-
+	<!-- 본인 포트 번호 8081 확인하세요. -->
+	<a href="http://localhost:8081/guestMVC/guest/write.do">방명록 작성</a>
+	<h3>팀원 방명록</h3>
 </body>
 </html>
